@@ -1,0 +1,19 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+   images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.vvitu.ac.in",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+        pathname: "/**",
+      },
+    ],
+  },
+};
+
+export default nextConfig;
